@@ -1,0 +1,41 @@
+#1st program compare values using if else condition 
+from ast import If
+
+
+a=int(input("Enter value 1:"))
+b=int(input("Enter value 2:"))
+if(a>b):
+    print("A is Greater Than B")
+elif(a<b):
+    print("B is Greater Than A")
+else:
+    print("both are equal")
+
+# 2nd program data stored in string with the data given by user  
+a=input("Enter your number:")
+b=input("Enter your'friend number:")
+if(a<b):
+    print("My friend is topper")
+elif(a>b):
+    print("I am topper")
+else:
+    print("we both get same marks")
+
+#3 rd program simple chatbot using if else elif
+print("Bot:what is your name?")
+name= input("User:")
+print("Bot: I Like it..",name)
+print("Bot: so what should i do for you?")
+t=input("User:")
+if t=='Hey':
+    print("Bot:Hello!")
+elif t=='How are You?':
+    print("Bot:I am fine , thank you!")
+elif t=='what is your name?':
+    print("Bot:Pybot!")
+elif t=='How old are you?':
+    print("Bot:well I am very young!")
+else:
+    print("Bot:sorry..Invalid Syntex or Beyond my commands!")
+
+  
