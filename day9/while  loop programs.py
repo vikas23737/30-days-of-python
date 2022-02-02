@@ -19,8 +19,9 @@ while(num<=100):
        print("%d"%num,end=" ")
     num=num+1
 #3rd program  sum of series upto n terms
-n=int(input("Enter number upto which you want to add in series"))
-i=1
-sum=0
+n=int(input("Enter value of n:"))
+sum=sum([i*(i+1)/2])
+for i in range(1,n+1):
+    print(sum)
 
     
